@@ -16,6 +16,7 @@
     <h1>Assignment 1</h1>
 
     <p>Welcome, <?php echo $_SESSION['username'] ?></p>
+    <p><?php echo "Today is " . date ("l") . ", " . date("Y/m/d") ?></p>
     
   </body>
   <footer>

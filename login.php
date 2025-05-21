@@ -1,5 +1,10 @@
 <?php
   session_start();
+
+  if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] == true) {
+    header("Location: /");
+  }
+
   if (isset($_SESSION['failed_attempts'])) {
     echo "This is unsuccessful attempt number " . $_SESSION['failed_attempts'];
   }
