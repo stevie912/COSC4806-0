@@ -19,7 +19,9 @@
     <p><?php echo "Today is " . date ("l") . ", " . date("Y/m/d") ?></p>
     
   </body>
+  
   <footer>
     <p></p><a href="/logout.php">Click here to logout</a>
   </footer>
+  
 </html>
