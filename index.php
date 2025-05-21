@@ -1,8 +1,12 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>PHP Test</title>
+    <title>Steve</title>
   </head>
+  
   <body>
-    <?php echo '<p>Hello Class</p>'; ?> 
-    <h1>Welcome to the show</h1>
+  
+    <h1>Assingment 1</h1>
+  
+  </body>
 </html>
